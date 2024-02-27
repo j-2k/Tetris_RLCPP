@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/dsg342/Desktop/TCPP/build/macosxclang",
+  "command": "/usr/bin/clang++  -I/Users/dsg342/Desktop/TCPP/include -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o -c /Users/dsg342/Desktop/TCPP/src/main.cpp",
+  "file": "/Users/dsg342/Desktop/TCPP/src/main.cpp",
+  "output": "CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o"
+}
+]
