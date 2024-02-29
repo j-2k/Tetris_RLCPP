@@ -8,10 +8,10 @@ int main(void)
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    const int screenWidth = 800;
-    const int screenHeight = 600;
+    const int screenWidth = 301;
+    const int screenHeight = 602;
 
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+    InitWindow(screenWidth, screenHeight, "Raylib Core Basic Window");
 
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
@@ -19,7 +19,17 @@ int main(void)
     //My Additions
     Grid grid = Grid();
 
+    grid.grid[0][0] = 1;
+    grid.grid[1][1] = 2;
+    grid.grid[2][2] = 3;
+    grid.grid[3][3] = 4;
+    grid.grid[4][4] = 5;
+    grid.grid[5][5] = 6;
+    grid.grid[6][6] = 7;
+
     grid.Log();
+
+    
 
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
@@ -35,7 +45,9 @@ int main(void)
 
             ClearBackground(RAYWHITE);
 
-            DrawText("Congrats! You created your first window!", (screenWidth*0.5) - (screenWidth*0.12), screenHeight*0.5, 20, LIGHTGRAY);
+            grid.Draw();
+
+            //DrawText("Congrats! You created your first window!", (screenWidth*0.5) - (screenWidth*0.12), screenHeight*0.5, 20, LIGHTGRAY);
 
         EndDrawing();
         //----------------------------------------------------------------------------------
