@@ -7,6 +7,7 @@ Getting raylib lib files:
 1. https://github.com/raysan5/raylib > go to releases
 2. scroll down to whatever os your using & download the files
 3. once you find the lib folder drop it in this project directory (see the CMakeLists.txt for more info)  
+4. (Note for myself Ignore this!) I can have the make file fetch this I believe, but I learn that later.
 
 Actual build instructions now:
 1. Enter the build file through terminal
