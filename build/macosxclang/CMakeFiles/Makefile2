@@ -81,12 +81,12 @@ clean: CMakeFiles/TetrisRLCPP.dir/clean
 CMakeFiles/TetrisRLCPP.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=1,2 "Built target TetrisRLCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=1,2,3 "Built target TetrisRLCPP"
 .PHONY : CMakeFiles/TetrisRLCPP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TetrisRLCPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TetrisRLCPP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles 0
 .PHONY : CMakeFiles/TetrisRLCPP.dir/rule

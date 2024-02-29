@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o"
+  "CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o.d"
   "CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o"
   "CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o.d"
   "TetrisRLCPP"
