@@ -1,5 +1,7 @@
 # Tetris
-Made for fun with the intent for learning practical C++ & library/include file integration with Cmake  
+Made for fun with the intent of learning practical C++ & library/include file integration with Cmake.  
+
+*February 2024 project meant for some fun before I step into something more serious like a graphics project that uses a specialization. If I need to learn more practical CPP I will probably try making a 3D game since Raylib seems nice & fun to use.*
 
 # Build Instructions
 ***YOU NEED TO HAVE A LIB FOLDER WITH THE RAYLIB LIBRARIES IN THE PROJECT DIRECTORY***  
