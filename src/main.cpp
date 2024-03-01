@@ -1,5 +1,8 @@
+#include <iostream>
 #include <raylib.h>
 #include "grid.h"
+#include "blocksall.cpp"
+
 
 //------------------------------------------------------------------------------------
 // Program main entry point
@@ -19,13 +22,27 @@ int main(void)
     //My Additions
     Grid grid = Grid();
 
-    grid.grid[0][0] = 1;
-    grid.grid[1][1] = 2;
-    grid.grid[2][2] = 3;
-    grid.grid[3][3] = 4;
-    grid.grid[4][4] = 5;
-    grid.grid[5][5] = 6;
-    grid.grid[6][6] = 7;
+    grid.grid[0][3] = 1;
+    grid.grid[1][4] = 2;
+    grid.grid[2][5] = 3;
+    grid.grid[3][6] = 4;
+    grid.grid[4][7] = 5;
+    grid.grid[5][8] = 6;
+    grid.grid[6][9] = 7;
+
+    LBlock L_BLOCK = LBlock();
+    /*
+    for (auto a : L_BLOCK.cells)
+    {
+        for (auto &e : a.second)
+        {
+            e.col += 5;
+            e.row += 10;
+            std::cout << a.first << " x:" << e.col<< " y:" << e.row << std::endl;
+        }
+    }
+    */
+
 
     grid.Log();
 
@@ -46,6 +63,8 @@ int main(void)
             ClearBackground(RAYWHITE);
 
             grid.Draw();
+
+            L_BLOCK.Draw();
 
             //DrawText("Congrats! You created your first window!", (screenWidth*0.5) - (screenWidth*0.12), screenHeight*0.5, 20, LIGHTGRAY);
 

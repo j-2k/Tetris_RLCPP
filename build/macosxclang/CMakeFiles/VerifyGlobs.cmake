@@ -5,8 +5,12 @@ cmake_policy(SET CMP0009 NEW)
 # MY_SOURCES at CMakeLists.txt:16 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/dsg342/Desktop/TCPP/src/*.cpp")
 set(OLD_GLOB
+  "/Users/dsg342/Desktop/TCPP/src/block.cpp"
+  "/Users/dsg342/Desktop/TCPP/src/blocksall.cpp"
+  "/Users/dsg342/Desktop/TCPP/src/colors.cpp"
   "/Users/dsg342/Desktop/TCPP/src/grid.cpp"
   "/Users/dsg342/Desktop/TCPP/src/main.cpp"
+  "/Users/dsg342/Desktop/TCPP/src/position.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

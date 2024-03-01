@@ -130,6 +130,78 @@ TetrisRLCPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/build
 .PHONY : TetrisRLCPP/fast
 
+src/block.o: src/block.cpp.o
+.PHONY : src/block.o
+
+# target to build an object file
+src/block.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/block.cpp.o
+.PHONY : src/block.cpp.o
+
+src/block.i: src/block.cpp.i
+.PHONY : src/block.i
+
+# target to preprocess a source file
+src/block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/block.cpp.i
+.PHONY : src/block.cpp.i
+
+src/block.s: src/block.cpp.s
+.PHONY : src/block.s
+
+# target to generate assembly for a file
+src/block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/block.cpp.s
+.PHONY : src/block.cpp.s
+
+src/blocksall.o: src/blocksall.cpp.o
+.PHONY : src/blocksall.o
+
+# target to build an object file
+src/blocksall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/blocksall.cpp.o
+.PHONY : src/blocksall.cpp.o
+
+src/blocksall.i: src/blocksall.cpp.i
+.PHONY : src/blocksall.i
+
+# target to preprocess a source file
+src/blocksall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/blocksall.cpp.i
+.PHONY : src/blocksall.cpp.i
+
+src/blocksall.s: src/blocksall.cpp.s
+.PHONY : src/blocksall.s
+
+# target to generate assembly for a file
+src/blocksall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/blocksall.cpp.s
+.PHONY : src/blocksall.cpp.s
+
+src/colors.o: src/colors.cpp.o
+.PHONY : src/colors.o
+
+# target to build an object file
+src/colors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.o
+.PHONY : src/colors.cpp.o
+
+src/colors.i: src/colors.cpp.i
+.PHONY : src/colors.i
+
+# target to preprocess a source file
+src/colors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.i
+.PHONY : src/colors.cpp.i
+
+src/colors.s: src/colors.cpp.s
+.PHONY : src/colors.s
+
+# target to generate assembly for a file
+src/colors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.s
+.PHONY : src/colors.cpp.s
+
 src/grid.o: src/grid.cpp.o
 .PHONY : src/grid.o
 
@@ -178,6 +250,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/position.o: src/position.cpp.o
+.PHONY : src/position.o
+
+# target to build an object file
+src/position.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o
+.PHONY : src/position.cpp.o
+
+src/position.i: src/position.cpp.i
+.PHONY : src/position.i
+
+# target to preprocess a source file
+src/position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/position.cpp.i
+.PHONY : src/position.cpp.i
+
+src/position.s: src/position.cpp.s
+.PHONY : src/position.s
+
+# target to generate assembly for a file
+src/position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TetrisRLCPP.dir/build.make CMakeFiles/TetrisRLCPP.dir/src/position.cpp.s
+.PHONY : src/position.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,12 +283,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TetrisRLCPP"
+	@echo "... src/block.o"
+	@echo "... src/block.i"
+	@echo "... src/block.s"
+	@echo "... src/blocksall.o"
+	@echo "... src/blocksall.i"
+	@echo "... src/blocksall.s"
+	@echo "... src/colors.o"
+	@echo "... src/colors.i"
+	@echo "... src/colors.s"
 	@echo "... src/grid.o"
 	@echo "... src/grid.i"
 	@echo "... src/grid.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/position.o"
+	@echo "... src/position.i"
+	@echo "... src/position.s"
 .PHONY : help
 
 
