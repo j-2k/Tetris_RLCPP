@@ -26,7 +26,7 @@ Getting raylib lib files:
 Actual build instructions now:
 1. Enter the build file through terminal
 2. Make a empty folder & go into it
-3. paste below & hit enter
+3. copy below then paste it in the terminal & when you run it should boot up the game
 ```shell
 cmake . && make && ./tetrisrlcpp
 ```
