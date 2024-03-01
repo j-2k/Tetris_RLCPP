@@ -39,6 +39,9 @@ Thats it! if you know what you're doing just build it on your own whatever way, 
 - [ChatGPT](https://chat.openai.com) ChatGPT helped with CMake configuration (specifically linking the libs & include dir)
 - [Tetris C++ Raylib Youtube](https://www.youtube.com/watch?v=wVYKG_ch4yM) Youtube Guide for creating Tetris
 
+# Closing Notes
+1st Checkpoint - 50:10
+
 
 
 
