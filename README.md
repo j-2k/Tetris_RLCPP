@@ -3,6 +3,11 @@ Made for fun with the intent of learning practical C++ & library/include file in
 
 *February 2024 project meant for some fun before I step into something more serious like a graphics project that uses a specialization. If I need to learn more practical CPP I will probably try making a 3D game since Raylib seems nice & fun to use.*
 
+# Progress Pictures
+The first tetris block + some colored blocks.
+<img width="296" alt="Screenshot 2024-03-04 at 6 52 28 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/f8dd1973-f991-4cec-822b-990bfee7b3db">
+
+
 # Build Instructions
 ***YOU NEED TO HAVE A LIB FOLDER WITH THE RAYLIB LIBRARIES IN THE PROJECT DIRECTORY***  
 *Below img has an example of the project dir including a lib folder with raylib library files. (currently not in git because of gitignore)*  
