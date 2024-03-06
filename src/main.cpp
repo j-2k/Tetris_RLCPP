@@ -30,7 +30,8 @@ int main(void)
     grid.grid[5][8] = 6;
     grid.grid[6][9] = 7;
 
-    LBlock L_BLOCK = LBlock();
+    TBlock L_BLOCK = TBlock();
+    //L_BLOCK.Move(9,3);
     /*
     for (auto a : L_BLOCK.cells)
     {
