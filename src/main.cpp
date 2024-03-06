@@ -1,7 +1,6 @@
 #include <iostream>
 #include <raylib.h>
-#include "grid.h"
-#include "blocksall.cpp"
+#include "game.h"
 
 
 //------------------------------------------------------------------------------------
@@ -16,10 +15,12 @@ int main(void)
 
     InitWindow(screenWidth, screenHeight, "Raylib Core Basic Window");
 
+    Game game = Game();
+
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
 
-    //My Additions
+ /*
     Grid grid = Grid();
 
     grid.grid[0][3] = 1;
@@ -29,10 +30,10 @@ int main(void)
     grid.grid[4][7] = 5;
     grid.grid[5][8] = 6;
     grid.grid[6][9] = 7;
-
+ 
     TBlock L_BLOCK = TBlock();
-    //L_BLOCK.Move(9,3);
-    /*
+    L_BLOCK.Move(9,3);
+   
     for (auto a : L_BLOCK.cells)
     {
         for (auto &e : a.second)
@@ -42,41 +43,25 @@ int main(void)
             std::cout << a.first << " x:" << e.col<< " y:" << e.row << std::endl;
         }
     }
-    */
-
 
     grid.Log();
-
     
+    //grid.Draw();
+    //L_BLOCK.Draw();
+    */
 
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
-        // Update
-        //----------------------------------------------------------------------------------
-        // TODO: Update your variables here
-        //----------------------------------------------------------------------------------
-
-        // Draw
-        //----------------------------------------------------------------------------------
         BeginDrawing();
-
             ClearBackground(RAYWHITE);
-
-            grid.Draw();
-
-            L_BLOCK.Draw();
+            game.Draw();
 
             //DrawText("Congrats! You created your first window!", (screenWidth*0.5) - (screenWidth*0.12), screenHeight*0.5, 20, LIGHTGRAY);
-
         EndDrawing();
         //----------------------------------------------------------------------------------
     }
-    
-    // De-Initialization
-    //--------------------------------------------------------------------------------------
     CloseWindow();        // Close window and OpenGL context
-    //--------------------------------------------------------------------------------------
 
     return 0;
 }

@@ -8,6 +8,7 @@ set(OLD_GLOB
   "/Users/dsg342/Desktop/TCPP/src/block.cpp"
   "/Users/dsg342/Desktop/TCPP/src/blocksall.cpp"
   "/Users/dsg342/Desktop/TCPP/src/colors.cpp"
+  "/Users/dsg342/Desktop/TCPP/src/game.cpp"
   "/Users/dsg342/Desktop/TCPP/src/grid.cpp"
   "/Users/dsg342/Desktop/TCPP/src/main.cpp"
   "/Users/dsg342/Desktop/TCPP/src/position.cpp"

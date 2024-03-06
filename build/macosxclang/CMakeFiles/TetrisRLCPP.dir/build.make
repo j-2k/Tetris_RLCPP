@@ -111,10 +111,24 @@ CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dsg342/Desktop/TCPP/src/colors.cpp -o CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.s
 
+CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o: CMakeFiles/TetrisRLCPP.dir/flags.make
+CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o: /Users/dsg342/Desktop/TCPP/src/game.cpp
+CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o: CMakeFiles/TetrisRLCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o -MF CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o.d -o CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o -c /Users/dsg342/Desktop/TCPP/src/game.cpp
+
+CMakeFiles/TetrisRLCPP.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TetrisRLCPP.dir/src/game.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dsg342/Desktop/TCPP/src/game.cpp > CMakeFiles/TetrisRLCPP.dir/src/game.cpp.i
+
+CMakeFiles/TetrisRLCPP.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TetrisRLCPP.dir/src/game.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dsg342/Desktop/TCPP/src/game.cpp -o CMakeFiles/TetrisRLCPP.dir/src/game.cpp.s
+
 CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o: CMakeFiles/TetrisRLCPP.dir/flags.make
 CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o: /Users/dsg342/Desktop/TCPP/src/grid.cpp
 CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o: CMakeFiles/TetrisRLCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o -MF CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o.d -o CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o -c /Users/dsg342/Desktop/TCPP/src/grid.cpp
 
 CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.s: cmake_force
 CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o: CMakeFiles/TetrisRLCPP.dir/flags.make
 CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o: /Users/dsg342/Desktop/TCPP/src/main.cpp
 CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o: CMakeFiles/TetrisRLCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o -MF CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o.d -o CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o -c /Users/dsg342/Desktop/TCPP/src/main.cpp
 
 CMakeFiles/TetrisRLCPP.dir/src/main.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/TetrisRLCPP.dir/src/main.cpp.s: cmake_force
 CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o: CMakeFiles/TetrisRLCPP.dir/flags.make
 CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o: /Users/dsg342/Desktop/TCPP/src/position.cpp
 CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o: CMakeFiles/TetrisRLCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o -MF CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o.d -o CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o -c /Users/dsg342/Desktop/TCPP/src/position.cpp
 
 CMakeFiles/TetrisRLCPP.dir/src/position.cpp.i: cmake_force
@@ -158,6 +172,7 @@ TetrisRLCPP_OBJECTS = \
 "CMakeFiles/TetrisRLCPP.dir/src/block.cpp.o" \
 "CMakeFiles/TetrisRLCPP.dir/src/blocksall.cpp.o" \
 "CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.o" \
+"CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o" \
 "CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o" \
 "CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o" \
 "CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o"
@@ -168,12 +183,13 @@ TetrisRLCPP_EXTERNAL_OBJECTS =
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/block.cpp.o
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/blocksall.cpp.o
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/colors.cpp.o
+TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/game.cpp.o
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/grid.cpp.o
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/main.cpp.o
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/src/position.cpp.o
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/build.make
 TetrisRLCPP: CMakeFiles/TetrisRLCPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TetrisRLCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dsg342/Desktop/TCPP/build/macosxclang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TetrisRLCPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TetrisRLCPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
