@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------------
 int main(void)
 {
-    // Initialization
+    // Start function / initialization
     //--------------------------------------------------------------------------------------
     const int screenWidth = 301;
     const int screenHeight = 602;
@@ -50,9 +50,13 @@ int main(void)
     //L_BLOCK.Draw();
     */
 
-    // Main game loop
+    // update function / Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
+        //update
+        game.InputHandler();
+
+        //render
         BeginDrawing();
             ClearBackground(RAYWHITE);
             game.Draw();

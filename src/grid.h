@@ -13,6 +13,8 @@ class Grid{
         void Draw();
         int grid[20][10];
 
+        bool isCellOutOfBounds(int row, int col);
+
     private:
         int rows;        //20
         int cols;        //10
