@@ -3,6 +3,24 @@
 #include "game.h"
 
 
+
+//custom delta timer /tickrate
+double lastUpdatedTimeFrame = 0;
+
+//number inserted will return 0 or 1 depending on the time passed in as input to real time
+//Basically Time.time unity
+bool EventTriggered(double interval)
+{
+    double currentTime = GetTime();
+    if(currentTime - lastUpdatedTimeFrame >= interval)
+    {
+        lastUpdatedTimeFrame = currentTime;
+        return true;
+    }
+    return false;
+}
+
+
 //------------------------------------------------------------------------------------
 // Program main entry point
 //------------------------------------------------------------------------------------
@@ -55,6 +73,11 @@ int main(void)
     {
         //update
         game.InputHandler();
+
+        if(EventTriggered(0.3)) //every 3 ms drop down 1
+        {
+            game.MoveBlockDown();
+        }
 
         //render
         BeginDrawing();

@@ -57,3 +57,12 @@ bool Grid::isCellOutOfBounds(int r, int c)
     }
     return true;
 }
+
+bool Grid::isCellEmpty(int r, int c)
+{
+    if(grid[r][c] == 0)
+    {
+        return true;
+    }
+    return false;
+}

@@ -14,6 +14,7 @@ class Grid{
         int grid[20][10];
 
         bool isCellOutOfBounds(int row, int col);
+        bool isCellEmpty(int row, int col);
 
     private:
         int rows;        //20
