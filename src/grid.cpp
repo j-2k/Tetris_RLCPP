@@ -73,7 +73,7 @@ bool Grid::isRowCompleted (int r)
     {
         if(grid[r][column] == 0)
         {
-            return false
+            return false;
         }
     }
     return true;
@@ -83,7 +83,7 @@ void Grid::ClearRow(int r)
 {
     for (int column = 0; column < cols; column++)
     {
-        grid[r][column] == 0;
+        grid[r][column] = 0;
     }
 }
 
@@ -94,4 +94,22 @@ void Grid::MoveRowDown(int r, int downOffset)
         grid[r + downOffset][column] = grid[r][column];
         grid[r][column] = 0;
     }
+}
+
+int Grid::ClearFullRows()
+{
+    int completed = 0;
+    for(int r = rows - 1; r >= 0; r --)
+    {
+        if(isRowCompleted(r))
+        {
+            ClearRow(r);
+            completed++;
+        }
+        else if (completed > 0)
+        {
+            MoveRowDown(r,completed);
+        }
+    }
+    return completed;
 }

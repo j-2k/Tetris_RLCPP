@@ -16,6 +16,8 @@ class Grid{
         bool isCellOutOfBounds(int row, int col);
         bool isCellEmpty(int row, int col);
 
+        int ClearFullRows();
+
     private:
         bool isRowCompleted(int row);
         void ClearRow(int row);
