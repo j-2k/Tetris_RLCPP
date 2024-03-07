@@ -74,7 +74,7 @@ int main(void)
         //update
         game.InputHandler();
 
-        if(EventTriggered(0.3)) //every 3 ms drop down 1
+        if(EventTriggered(0.03)) //every 3 ms drop down 1
         {
             game.MoveBlockDown();
         }
@@ -83,8 +83,10 @@ int main(void)
         BeginDrawing();
             ClearBackground(RAYWHITE);
             game.Draw();
-
-            //DrawText("Congrats! You created your first window!", (screenWidth*0.5) - (screenWidth*0.12), screenHeight*0.5, 20, LIGHTGRAY);
+            if(game.isGameOver){
+                DrawText("GAMEOVER!", (screenWidth*0.5) - (screenWidth*0.49), screenHeight*0.5, 50, WHITE);
+            }
+            
         EndDrawing();
         //----------------------------------------------------------------------------------
     }

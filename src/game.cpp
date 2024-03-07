@@ -7,6 +7,7 @@ Game::Game()
     blocks = GetAllBlocks();
     currentBlock = GetRandomBlock();
     nextBlock = GetRandomBlock();
+    isGameOver = false;
 }
 
 Block Game::GetRandomBlock()
@@ -36,6 +37,12 @@ void Game::InputHandler()
 {
     int keyPressed = GetKeyPressed();
 
+    if(isGameOver && keyPressed != 0)
+    {
+        isGameOver = false;
+        Reset();
+    }
+
     switch(keyPressed)
     {
         case KEY_LEFT:
@@ -59,6 +66,8 @@ void Game::InputHandler()
 
 void Game::MoveBlockLeft()
 {
+    if(isGameOver){return;}
+
     currentBlock.Move(0,-1);
     if(isBlockOutside() || !BlockFits())
     {
@@ -68,6 +77,8 @@ void Game::MoveBlockLeft()
 
 void Game::MoveBlockRight()
 {
+    if(isGameOver){return;}
+
     currentBlock.Move(0,1);
     if(isBlockOutside() || !BlockFits())
     {
@@ -77,6 +88,8 @@ void Game::MoveBlockRight()
 
 void Game::MoveBlockDown()
 {
+    if(isGameOver){return;}
+
     currentBlock.Move(1,0);
     if(isBlockOutside() || !BlockFits())
     {
@@ -118,6 +131,13 @@ void Game::Locked()
     }
 
     currentBlock = nextBlock;
+
+    //gameover
+    if(!BlockFits())
+    {
+        isGameOver = true;
+    }
+
     nextBlock = GetRandomBlock();
     grid.ClearFullRows();
 }
@@ -134,4 +154,12 @@ bool Game::BlockFits()
     }
     return true;
     
+}
+
+void Game::Reset()
+{
+    grid.Start();
+    blocks = GetAllBlocks();
+    currentBlock = GetRandomBlock();
+    nextBlock = GetRandomBlock();
 }
