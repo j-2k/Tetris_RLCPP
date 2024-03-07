@@ -1,13 +1,28 @@
 #include "game.h"
+#include <string>
 #include <random>
 
 Game::Game()
+{
+    InitializeGame();
+}
+
+Game::Game(int sX, int sY)
+{
+    InitializeGame();
+
+    screenX = sX;
+    screenY = sY;
+}
+
+void Game::InitializeGame()
 {
     grid = Grid();
     blocks = GetAllBlocks();
     currentBlock = GetRandomBlock();
     nextBlock = GetRandomBlock();
     isGameOver = false;
+    totalScore = 0;
 }
 
 Block Game::GetRandomBlock()
@@ -31,6 +46,17 @@ void Game::Draw()
 {
     grid.Draw();
     currentBlock.Draw();
+
+    //this is trash but idrc just doing it fast idc abt optimization rn
+    if(isGameOver){
+        DrawRectangle((screenX*0.5) - (screenX*0.49), screenY*0.5,screenX,screenY*0.25,BLACK);
+        DrawText("GAMEOVER!", (screenX*0.5) - (screenX*0.49), screenY*0.5, 50, WHITE);
+        DrawText("Press any key to restart!", (screenX*0.5) - (screenX*0.49), screenY*0.6, 22, WHITE);
+        
+        std::string s = "Score: " + std::to_string(totalScore);
+        char const *pchar = s.c_str(); 
+        DrawText(pchar, (screenX*0.5) - (screenX*0.3), screenY*0.7, 22, WHITE);
+    }
 }
 
 void Game::InputHandler()

@@ -6,6 +6,7 @@
 class Game{
     public:
         Game();
+        Game(int sX, int sY);
         Grid grid;
         Block GetRandomBlock();
         std::vector<Block> GetAllBlocks();
@@ -18,7 +19,10 @@ class Game{
 
         bool isGameOver;
 
+        int totalScore;
+
     private:
+        void InitializeGame();
         bool isBlockOutside();
         void RotateBlock();
         void Locked();
@@ -26,6 +30,9 @@ class Game{
         std::vector<Block> blocks;
         Block currentBlock;
         Block nextBlock;
+
+        int screenX;
+        int screenY;
 
         void Reset();
 

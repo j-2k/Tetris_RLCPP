@@ -105,6 +105,7 @@ int Grid::ClearFullRows()
         {
             ClearRow(r);
             completed++;
+            
         }
         else if (completed > 0)
         {

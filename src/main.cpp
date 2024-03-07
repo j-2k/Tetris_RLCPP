@@ -33,7 +33,7 @@ int main(void)
 
     InitWindow(screenWidth, screenHeight, "Raylib Core Basic Window");
 
-    Game game = Game();
+    Game game = Game(screenWidth,screenHeight);
 
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
@@ -83,9 +83,7 @@ int main(void)
         BeginDrawing();
             ClearBackground(RAYWHITE);
             game.Draw();
-            if(game.isGameOver){
-                DrawText("GAMEOVER!", (screenWidth*0.5) - (screenWidth*0.49), screenHeight*0.5, 50, WHITE);
-            }
+
             
         EndDrawing();
         //----------------------------------------------------------------------------------
