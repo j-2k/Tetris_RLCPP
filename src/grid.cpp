@@ -2,6 +2,7 @@
 #include <iostream>
 //#include <raylib.h>
 #include "colors.h"
+#include "game.h"
 
 Grid::Grid()
 {
@@ -105,7 +106,6 @@ int Grid::ClearFullRows()
         {
             ClearRow(r);
             completed++;
-            
         }
         else if (completed > 0)
         {

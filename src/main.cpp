@@ -74,7 +74,7 @@ int main(void)
         //update
         game.InputHandler();
 
-        if(EventTriggered(0.03)) //every 3 ms drop down 1
+        if(EventTriggered(0.3)) //every 3 ms drop down 1
         {
             game.MoveBlockDown();
         }

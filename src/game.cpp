@@ -165,7 +165,7 @@ void Game::Locked()
     }
 
     nextBlock = GetRandomBlock();
-    grid.ClearFullRows();
+    totalScore += grid.ClearFullRows();
 }
 
 bool Game::BlockFits()
