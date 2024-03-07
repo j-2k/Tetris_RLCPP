@@ -17,6 +17,9 @@ class Grid{
         bool isCellEmpty(int row, int col);
 
     private:
+        bool isRowCompleted(int row);
+        void ClearRow(int row);
+        void MoveRowDown(int row, int downOffset);
         int rows;        //20
         int cols;        //10
         int cellSize;   //30
