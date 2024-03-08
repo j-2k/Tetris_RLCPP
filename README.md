@@ -1,7 +1,9 @@
 # Tetris
 Made for fun with the intent of learning practical C++ & library/include file integration with Cmake.  
 
-*February 2024 project meant for some fun before I step into something more serious like a graphics project that uses a specialization. If I need to learn more practical CPP I will probably try making a 3D game since Raylib seems nice & fun to use.*
+*February 2024 project meant for some fun before I step into something more serious like a graphics project that uses a specialization. If I need to learn more practical CPP I will probably try making a 3D game since Raylib seems nice & fun to use.*  
+
+*Note after finishing this project: I will now probably move onto OpenGL and have some fun fiddling around in modern OpenGL just to dive into graphics properly, this project was mainly for refreshing my knowledge with CPP so in terms of making the game "juiced up" I didn't bother doing that but important ending functionality like score, game-over, restart, etc has all been done, not in the nicest visual way of course as I said previously. picture of the game will be put below!*  
 
 # Progress Pictures
 The first tetris block + some colored blocks.
