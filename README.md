@@ -5,6 +5,9 @@ Made for fun with the intent of learning practical C++ & library/include file in
 
 *Note after finishing this project: I will now probably move onto OpenGL and have some fun fiddling around in modern OpenGL just to dive into graphics properly, this project was mainly for refreshing my knowledge with CPP so in terms of making the game "juiced up" I didn't bother doing that but important ending functionality like score, game-over, restart, etc has all been done, not in the nicest visual way of course as I said previously. picture of the game will be put below!*  
 
+
+
+enjoy the next project > [j-2k/opengl-trials](https://github.com/j-2k/OpenGL_Trials_1)
 # Progress Pictures
 The first tetris block + some colored blocks.
 <img width="296" alt="Screenshot 2024-03-04 at 6 52 28 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/f8dd1973-f991-4cec-822b-990bfee7b3db">
