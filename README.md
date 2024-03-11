@@ -10,9 +10,9 @@ Made for fun with the intent of learning practical C++ & library/include file in
 enjoy the next project > [j-2k/opengl-trials](https://github.com/j-2k/OpenGL_Trials_1)
 # Progress Pictures
 <div align="center">
-<img width="296" alt="Screenshot 2024-03-04 at 6 52 28 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/f8dd1973-f991-4cec-822b-990bfee7b3db">
-<img width="293" alt="Screenshot 2024-03-07 at 7 04 02 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/bff5c429-bfff-423c-8abc-da787d5da5bc">
-<img width="298" alt="Screenshot 2024-03-11 at 8 27 56 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/8860046c-193c-4d07-a2a8-35cdc37ec5b8">
+<img width="30%" alt="Screenshot 2024-03-04 at 6 52 28 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/f8dd1973-f991-4cec-822b-990bfee7b3db">
+<img width="30%" alt="Screenshot 2024-03-07 at 7 04 02 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/bff5c429-bfff-423c-8abc-da787d5da5bc">
+<img width="30%" alt="Screenshot 2024-03-11 at 8 27 56 AM" src="https://github.com/j-2k/Tetris_RLCPP/assets/52252068/8860046c-193c-4d07-a2a8-35cdc37ec5b8">
 </div>
 
 
